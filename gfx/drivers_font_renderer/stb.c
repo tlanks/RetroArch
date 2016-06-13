@@ -191,14 +191,18 @@ static const char *font_renderer_stb_get_default_font(void)
 #elif defined(__ANDROID_API__)
       "/system/fonts/DroidSansMono.ttf",
       "/system/fonts/CutiveMono.ttf",
-      "/system/fonts/DroidSans.ttf",
+      "/system/fonts/DroidSansFallbackFull.ttf",
 #else
-      "/usr/share/fonts/TTF/DejaVuSansMono.ttf",
-      "/usr/share/fonts/TTF/DejaVuSans.ttf",
-      "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf",
-      "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf",
-      "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
-      "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+
+      "/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
+/* "/usr/share/fonts/TTF/DejaVuSansMono.ttf",
+   "/usr/share/fonts/TTF/DejaVuSans.ttf",
+   "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf",
+   "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
+   "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+   "/usr/share/fonts/TTF/Vera.ttf",
+*/   
+		
 #endif
       "osd-font.ttf",
       NULL
