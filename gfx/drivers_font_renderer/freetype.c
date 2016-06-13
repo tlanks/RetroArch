@@ -206,13 +206,15 @@ static const char *font_paths[] = {
    "/Library/Fonts/Verdana.ttf",
    "/Library/Fonts/Tahoma.ttf",
 #else
-   "/usr/share/fonts/TTF/DejaVuSansMono.ttf",
+/*   "/usr/share/fonts/TTF/DejaVuSansMono.ttf",
    "/usr/share/fonts/TTF/DejaVuSans.ttf",
-   "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf",
    "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf",
    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
    "/usr/share/fonts/TTF/Vera.ttf",
+*/   
+   "/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf",
+
 #endif
    "osd-font.ttf", /* Magic font to search for, useful for distribution. */
 };
